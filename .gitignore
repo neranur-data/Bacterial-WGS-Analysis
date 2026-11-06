@@ -1,0 +1,40 @@
+# IDE and operating system
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Conda and Python environments
+.venv/
+venv/
+.env
+
+# Raw and processed sequencing data
+data/
+references/
+
+# Large alignment files
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# Variant calling files
+*.vcf
+*.vcf.gz
+*.tbi
+*.csi
+*.bcf
+
+# Generated QC and analysis results
+results/*
+!results/summary/
+results/summary/*
+!results/summary/variant_summary.csv
+
+reports/*_data/
+
+# Temporary files
+*.log
+*.tmp

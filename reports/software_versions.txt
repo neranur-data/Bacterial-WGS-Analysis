@@ -1,0 +1,8 @@
+Bacterial WGS Analysis - Software Versions
+==========================================
+FastQC v0.13.0
+multiqc, version 1.35
+fastp 1.4.0
+samtools 1.25
+bcftools 1.25
+BWA-MEM2 2.2.1
